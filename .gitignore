@@ -55,3 +55,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# train_mnist.py によリ取得
+v1.5.1.tar.gz
+chainer-1.5.1/
+t10k-images-idx3-ubyte.gz
+t10k-labels-idx1-ubyte.gz
+train-images-idx3-ubyte.gz
+train-labels-idx1-ubyte.gz
+graph.dot
+mlp.model
+mlp.state
+mnist.pkl
