@@ -67,3 +67,6 @@ graph.dot
 mlp.model
 mlp.state
 mnist.pkl
+
+# tensorflow-mnist.sh により取得
+data/
