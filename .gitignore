@@ -72,3 +72,5 @@ mnist.pkl
 
 # tensorflow-mnist.sh により取得
 data/
+
+Untitled*.ipynb
