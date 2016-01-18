@@ -12,10 +12,13 @@ import matplotlib.pyplot as plt
 # クラスラベルは排他的
 # PythonのcPickle形式で提供されている
 
+
 def unpickle(f):
-    import cPickle
+    # import cPickle
+    import pickle
     fo = open(f, 'rb')
-    d = cPickle.load(fo)
+    # d = cPickle.load(fo)
+    d = pickle.load(fo, encoding='latin1')
     fo.close()
     return d
 
